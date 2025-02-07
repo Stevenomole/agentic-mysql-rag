@@ -67,17 +67,3 @@ The database itself is not included because it contains proprietary data that wa
 4. **Analyze Results**  
    - The agent returns an explanation intended for data analysts.  
    - Read through the response to understand patterns or insights drawn from your query results.
-
-## Customization
-- **Database Support**  
-  While the current setup focuses on MySQL, you may utilize any SQL dialect supported by `SQLDatabase` from LangChain. You only need to adjust the database connection URI.
-- **Prompt Engineering**  
-  The templates used in `getLLMQueryResponse` and `getLLMResponse` illustrate how to direct LLM responses. You may enhance or refine these templates to handle more complex scenarios.
-- **LLM Model**  
-  Feel free to switch out `ChatOllama` for another LLM if you have different requirements or access to alternative services.
-
-## Contributing
-You are welcome to submit issues or pull requests that improve the functionality, reliability, or user experience of this agent. Contributions that help refine prompt engineering or provide additional examples are highly appreciated.
-
-## License
-This project is released under the [MIT License](LICENSE), which permits you to use, modify, and distribute the code with minimal restrictions. You are encouraged to adapt it to suit your unique needs.
