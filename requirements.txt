@@ -1,0 +1,5 @@
+langchain_community.utilities
+langchain_ollama
+langchain_core.prompts
+streamlit
+mysql-connector-python
